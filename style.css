@@ -1,0 +1,153 @@
+/* 
+
+@font-face {
+    font-family: "plain-light";
+    src: url("./fonts/plain-light-webfont.ttf") format("ttf");
+}
+@font-face {
+    font-family: "plain-regular";
+    src: url("./fonts/plain-regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "silk-light";
+    src: url("./fonts/silkserif-lightitalic-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "plain-light";
+    src: url("./fonts/silkserif-regularitalic-webfont.woff") format("woff");
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    background-color: #0b0b0b;
+    overflow: hidden;
+}
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #0b0b0b;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+    align-items: center;
+    z-index: 999;
+   
+
+  
+
+.loader-count{
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    /* background-color: green; */
+    display: flex;
+    h4{
+
+       
+        font-size: 3vw;
+        font-family:Silk serif ;
+        font-weight: 400;
+        text-align: right;
+        width: 8vw;
+        }
+        h5{
+        font-weight: 400;
+          
+            font-size: 3vw;
+            font-family:Silk serif ;
+        }
+}
+.loader-contents{
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+    
+        
+        h1{
+            
+            font-size: 7vw;
+            /* background-color: red; */
+            font-weight: 500;
+            line-height: 6vw;
+            height: 13vh;
+            text-transform: uppercase;
+            font-family: "Plain Light";
+            &:nth-child(1){
+                width: 70%;
+                margin: 0 auto;
+            }
+            span{
+                font-weight: 100;
+                animation-name: now-anime;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                text-align: left;
+                display: inline;
+              
+                display: inline-block;
+            }
+        }
+       
+        
+    }
+    p{
+    /* background-color: red; */
+    margin-right: 38%;
+    margin-top: 5%;
+    }
+}
+
+@keyframes now-anime {
+    0%{
+        font-family: "plain light";
+        -webkit-text-stroke: 2px #fff;
+        color: #fff;
+        opacity: 1;
+    }
+    40%{
+        font-family: "plain light";
+        -webkit-text-stroke: 2px #fff;
+        color: #fff;
+        opacity: 0;
+    }
+    60%{
+        font-family: "silk serif";
+        -webkit-text-stroke: 2px #fff;
+        color: transparent;
+
+        opacity: 1;
+    }
+    100%{
+        font-family: "silk serif";
+        -webkit-text-stroke: 2px #fff;
+        color: transparent;
+
+        opacity: 0;
+    }
+}
+
+main{
+    position: relative;
+    background-color: #151515;
+overflow-y: auto;
+
+
+    
+    .page1{
+        height: 100vh;
+        width: 100%;
+        background-color:"#151515";
+        color: white;
+    }
+}
+
