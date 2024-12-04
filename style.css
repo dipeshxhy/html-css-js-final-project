@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Plain Light";
+  src: url("./fonts/plain-light-webfont.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Plain Light";
+  src: url("./fonts/plain-regular-webfont.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Silk serif";
+  src: url("./fonts/silkserif-regularitalic-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Silk serif";
+  src: url("./fonts/silkserif-lightitalic-webfont.woff") format("ttf");
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +29,10 @@ body,
 html {
   width: 100%;
   height: 100%;
-  background-color: red;
 
   color: white;
   overflow-y: auto;
-  overflow: hidden;
+  overflow-x: hidden;
   cursor: none;
   pointer-events: none;
   /* cursor: none; */
