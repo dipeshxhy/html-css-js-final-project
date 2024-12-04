@@ -54,7 +54,11 @@ function loaderAnimation() {
       }
       count++;
       counter.textContent = count;
+<<<<<<< HEAD
     }, 10);
+=======
+    }, 19);
+>>>>>>> d61de0031bb15a0410683ec08781cf3a199d7f4c
   }
   counter();
 

@@ -13,8 +13,18 @@ html {
   color: white;
   overflow-y: auto;
   overflow: hidden;
+<<<<<<< HEAD
   cursor: none;
   pointer-events: none;
+=======
+  /* cursor: none; */
+}
+.mousefollower {
+  border: 2px solid #fff;
+  scale: 2;
+  background-color: white;
+  mix-blend-mode: difference;
+>>>>>>> d61de0031bb15a0410683ec08781cf3a199d7f4c
 }
 .mousefollower {
   border: 2px solid #fff;
@@ -981,6 +991,7 @@ footer {
 }
 
 @media (max-width: 600px) {
+<<<<<<< HEAD
 
   body,
 html {
@@ -993,6 +1004,8 @@ html {
   overflow: hidden;
   cursor: pointer;
 }
+=======
+>>>>>>> d61de0031bb15a0410683ec08781cf3a199d7f4c
   main {
     position: relative;
     background-color: #151515;
