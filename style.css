@@ -13,7 +13,8 @@ html {
   color: white;
   overflow-y: auto;
   overflow: hidden;
-  /* cursor: none; */
+  cursor: none;
+  pointer-events: none;
 }
 .mousefollower {
   border: 2px solid #fff;

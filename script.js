@@ -54,7 +54,7 @@ function loaderAnimation() {
       }
       count++;
       counter.textContent = count;
-    }, 34);
+    }, 28);
   }
   counter();
 
