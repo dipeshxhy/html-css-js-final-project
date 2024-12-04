@@ -32,9 +32,6 @@ html {
 
   color: white;
   overflow-y: auto;
-  cursor: none;
-  pointer-events: none;
-  /* cursor: none; */
 }
 .mousefollower {
   border: 2px solid #fff;
@@ -167,8 +164,10 @@ html {
 main {
   position: relative;
   background-color: #151515;
-  overflow-x: hidden;
   overflow-y: auto;
+  cursor: none;
+  overflow-x: hidden;
+
 
   .page1 {
     position: relative;
