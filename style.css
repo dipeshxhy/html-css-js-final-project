@@ -32,7 +32,6 @@ html {
 
   color: white;
   overflow-y: auto;
-  overflow-x: hidden;
   cursor: none;
   pointer-events: none;
   /* cursor: none; */
@@ -168,7 +167,7 @@ html {
 main {
   position: relative;
   background-color: #151515;
-  overflow: hidden;
+  overflow-x: hidden;
   overflow-y: auto;
 
   .page1 {
