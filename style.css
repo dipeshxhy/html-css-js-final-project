@@ -736,7 +736,7 @@ transition-delay: 0.4s;
   width: 100%;
   min-height: 100vh;
   position: relative;
-  margin-top: 40vw;
+  margin-top: 9vw;
   .about-top {
     width: 60%;
     margin: 0 auto;
@@ -1416,7 +1416,7 @@ footer {
     padding: 0 3vw;
     min-height: 157vh;
     position: relative;
-    margin-top: 100vw;
+    margin-top: 136vw;
     .about-top {
       width: 100%;
       margin: 0;
@@ -1554,7 +1554,7 @@ footer {
     position: relative;
     overflow: hidden;
     text-wrap: nowrap;
-    margin-top: 10vw;
+    margin-top: 56vw;
 
     .marquee {
       white-space: nowrap;
