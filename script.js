@@ -222,15 +222,15 @@ function footerAnimation(){
 
 
 
+locomotiveAnimation();
+sheryAnimation();
+loaderAnimation();
+flagAnimation();
+cursorAnimation();
 footerAnimation()
 
 
-locomotiveAnimation();
 
-loaderAnimation();
 
-cursorAnimation();
 
-flagAnimation();
 
-sheryAnimation();

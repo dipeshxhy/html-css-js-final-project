@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Plain Light";
-  src: url("./fonts/plain-light-webfont.ttf") format("ttf");
+  src: url("./assets/fonts/plain-light-webfont.ttf") format("ttf");
 }
 @font-face {
   font-family: "Plain Light";
-  src: url("./fonts/plain-regular-webfont.ttf") format("ttf");
+  src: url("./assets/fonts/plain-regular-webfont.ttf") format("ttf");
 }
 @font-face {
   font-family: "Silk serif";
-  src: url("./fonts/silkserif-regularitalic-webfont.woff") format("woff");
+  src: url("./assets/fonts/silkserif-regularitalic-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "Silk serif";
-  src: url("./fonts/silkserif-lightitalic-webfont.woff") format("ttf");
+  src: url("./assets/fonts/silkserif-lightitalic-webfont.woff") format("ttf");
 }
 
 
@@ -736,7 +736,7 @@ transition-delay: 0.4s;
   width: 100%;
   min-height: 100vh;
   position: relative;
-  margin-top: 30vw;
+  margin-top: 40vw;
   .about-top {
     width: 60%;
     margin: 0 auto;
@@ -862,7 +862,7 @@ transition-delay: 0.4s;
   position: relative;
   overflow: hidden;
   text-wrap: nowrap;
-  margin-top: 49vw;
+  margin-top: 78vw;
 
   .marquee {
     white-space: nowrap;
